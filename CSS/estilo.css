@@ -1,0 +1,170 @@
+/*FOLHA DE ESTILO DO SISTEMA DE BUSCA E CADASTRO*/
+/* 
+    Created on : 05/09/2014, 17:27:02
+    Author     : diogenes
+*/
+
+/* Codigo da mensagem de erro de validação*/
+label { 
+    display: block; 
+    margin-top: 10px; 
+}
+label.error { 
+    float: none; 
+    color: red; 
+    margin: 0 .5em 0 0; 
+    vertical-align: top; 
+    font-family: Verdana; 
+    font-size: 10px; 
+}
+/* FONTE UTILIZADA NO SISTEMA*/
+* { 
+    font-family: Verdana; 
+
+}
+body{
+
+    background-image: url(../imagens/azulFundo.jpg);
+}
+/* LARGURA DOS CAMPOS DE ENTRADA DE TEXTO*/
+input.inserir{
+    width: 80%;
+}
+/* DIV DE CONTEÚDO DA PÁGINA*/
+div.conteudo{
+    width: 90%;
+    border: solid 1px #9f7bfa;
+    font-size: 12px;
+    min-height: 80em;
+    height: auto !important;
+    //background-color: #9f55ff;
+    border-radius: 16px;
+    background-color: #fff;;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, o.5);
+
+}
+div.conteudo {
+    //color: #fff;
+    color: #000;
+}
+/* TABELAS*/
+table{
+    width: 100%;
+}
+/*cCABECALHOS*/
+h1{
+    font-weight: 500;
+    font-size: 27px;
+}
+/*DIV DE CABECALHOS*/
+div.header{
+    background-image: url(../imagens/azulMenus.jpg);
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+
+}
+p.header{
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #4387ef;
+    border-radius: 16px;
+    font-size: 14px;
+}
+div.header a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    list-style: none;
+    margin: 80px 0 20px 0;
+    padding: .7em;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius: .5em;
+}
+div.header a:hover{
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, o.5);
+    //background: #444;
+   // background-color: #4387ef;
+   color: #444;
+    background-image: url(../imagens/azulFundo.jpg);
+}
+
+/*MENU*/
+nav{
+    background-color: #fff;
+   border-bottom:1px solid #fff;
+   border-top:1px solid #fff;
+    padding: 1%;
+    background-color: #4387ef;
+    display: block;
+    overflow: hidden;
+}
+nav a{
+    color: #fff;
+    font-size: 10px;
+    text-decoration: none;
+    //margin: 80px 0 20px 0;
+   padding: .4em;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius: .5em;
+    //box-shadow: 1px 2px 6px rgba(0, 0, 0, o.5);
+}
+nav a:hover, nav a:focus{
+    outline: 0;
+    //color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+   // background: #9f55ff;
+   color: #444;
+    background-image: url(../imagens/azulFundo.jpg);
+}
+/*RODAPÉ*/
+div.footer{
+    color: #fff;
+    background: #444;
+    border-radius: 10px 10px 0px 0px;
+    min-height: 4em;
+}
+/*BOTÕES DE ENVIAR*/
+input.enviar{
+    color: #fff;
+    background-color: #fff;
+   border-bottom:1px solid #fff;
+   border-top:1px solid #fff;
+    padding: 1%;
+    background-color: #4387ef;
+    display: block;
+    overflow: hidden;
+    border-radius: 10em;
+}
+input.enviar:hover{
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, o.5);
+   // background: #9f55ff;
+   color: #444;
+       // background-image: url(../imagens/azulFundo.jpg);
+}
+/*TABELAS*/
+table.exibir td{
+    //border-bottom: 1px solid black;
+    //border-right: 1px solid black;
+    //border-left: 1px solid black;
+}
+/*LINKS DE EXIBIÇÃO*/
+
+div.conteudo a.exibir, a{
+    color: #fff;
+    text-decoration: none;
+    background: #4387ef;
+    border-radius: .5em;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+div.conteudo a.exibir:hover, a:hover{
+    outline: 0;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+    //background: #9f55ff;
+    color: #444;
+        background-image: url(../imagens/azulFundo.jpg);
+
+}

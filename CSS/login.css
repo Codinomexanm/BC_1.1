@@ -1,0 +1,62 @@
+/*FOLHA DE ESTILOS PARA A PÁGINA DE LOGIN*/
+/* 
+    Created on : 19/09/2014, 11:47:39
+    Author     : diogenes
+*/
+
+/* FONTE UTILIZADA NO SISTEMA*/
+* { 
+    font-family: Verdana; 
+
+}
+body{
+    background-image: url(../imagens/azulFundo.jpg);
+}
+div.conteudo{
+    width: 90%;
+    border: solid 1px #fff;
+    border-radius: 16px;
+    min-height: 28em;
+    height: auto !important;
+    background-color: #f4f4f4;
+   // background-image: url(../imagens/download.jpg);
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, o.5);
+}
+div.conteudo table{
+    width: 60%;
+    font-size: 17px;
+    font-weight: 500;
+    background-image: url(../imagens/azulMenus.jpg);
+     border-radius: 16px;
+   color: #fff; 
+     border: 1px solid #FFF;
+}
+ table td{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+p{
+    font-size: 38px;
+    background-image: url(../imagens/azulMenus.jpg);
+    color: #fff;
+    font-weight: 900;
+}
+p.erro{
+    color: red;
+    font-size: 28px;
+    font-weight: 400%;
+}
+select{
+    width: 80%;
+}
+input{
+    width: 80%;
+}
+input.enviar{
+    width: 40%;
+}
+input.enviar:hover{
+    //background-color: #4387ef;
+    background-image: url(../imagens/azulFundo.jpg);
+   box-shadow: 1px 2px 6px rgba(0, 0, 0, o.5);
+}
